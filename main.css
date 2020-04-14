@@ -33,3 +33,7 @@
     clear: both;
     display: block;
 }
+body {  font-family: Arial;
+	width: 900px;
+	border: 2px solid black;
+      }
