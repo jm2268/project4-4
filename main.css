@@ -1,1 +1,35 @@
+#nav_menu ul {
+	list-style-type: none;
+	position: relative;
+	width: 100%;
+}
+#nav_menu ul li {float: left;
+                 width: 20%;}
 
+#nav_menu ul li a {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+}
+#nav_menu a.current {color: yellow;}
+
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+	width: 100%;
+}
+#nav_menu ul li:hover > ul {display: block;}
+
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
