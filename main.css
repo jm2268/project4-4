@@ -1,8 +1,7 @@
-html{background-color: white;
-}
+
 body {  font-family: Arial;
 	width: 900px;
-	border: 2px solid black;
+	border: 2px solid red;
 	color: yellow;
 	background-color: grey;
       }
