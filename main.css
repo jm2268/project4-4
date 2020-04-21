@@ -1,3 +1,5 @@
+html{background-color: white;
+}
 #nav_menu ul {
 	list-style-type: none;
 	position: relative;
@@ -33,8 +35,12 @@
     display: block;
 }
 body {  font-family: Arial;
-	width: 800px;
+	width: 900px;
 	border: 2px solid black;
+	color: yellow;
+	background-color: grey;
       }
+footer{color: white;
+       font-size: 50%;}
 
 
