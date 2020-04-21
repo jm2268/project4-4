@@ -1,5 +1,11 @@
 html{background-color: white;
 }
+body {  font-family: Arial;
+	width: 900px;
+	border: 2px solid black;
+	color: yellow;
+	background-color: grey;
+      }
 #nav_menu ul {
 	list-style-type: none;
 	position: relative;
@@ -34,12 +40,7 @@ html{background-color: white;
     clear: both;
     display: block;
 }
-body {  font-family: Arial;
-	width: 900px;
-	border: 2px solid black;
-	color: yellow;
-	background-color: grey;
-      }
+
 footer{color: white;
        font-size: 50%;}
 
