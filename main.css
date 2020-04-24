@@ -46,7 +46,9 @@ body {  font-family: Arial;
     clear: both;
     display: block;
 }
-
+header{
+        padding: 1em;
+}
 footer{color: white;
        font-size: 50%;
        clear: both;
