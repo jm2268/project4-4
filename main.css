@@ -10,7 +10,7 @@ body {  font-family: Arial;
 	margin: 0 auto;
 	border: 2px solid red;
 	color: yellow;
-	background-color: grey;
+	background-color: rbg(60, 60, 60);
       }
 #nav_menu ul {
 	list-style-type: none;
