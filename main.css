@@ -51,5 +51,8 @@ footer{color: white;
        font-size: 50%;
        clear: both;
        }
+footer p{ 
+	   text-align: center;
+}
 
 
