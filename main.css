@@ -5,7 +5,8 @@
 html{background-color: white;
 }
 body {  font-family: Arial;
-	width: 900px;
+	width: 100%;
+	max-width: 960px;
 	margin: 0 auto;
 	border: 2px solid red;
 	color: yellow;
