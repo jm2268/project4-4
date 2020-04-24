@@ -8,8 +8,8 @@ body {  font-family: Arial;
 	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
-	border: 2px solid red;
-	color: yellow;
+	border: 5px solid #990000;
+	color: #ffff00;
 	background-color: rgb(60, 60, 60);
       }
 #nav_menu ul {
@@ -25,7 +25,7 @@ body {  font-family: Arial;
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
-    background-color: #800000;
+    background-color: #990000;
     color: white;
     font-weight: bold;
 }
