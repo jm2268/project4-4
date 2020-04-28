@@ -1,3 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{background-color: white;
+}
+body {  font-family: Arial;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	border: 5px solid #990000;
+	color: #ffff00;
+	background-color: rgb(60, 60, 60);
+}
 #nav_menu ul {
 	list-style-type: none;
 	position: relative;
@@ -32,8 +46,5 @@
     clear: both;
     display: block;
 }
-body {  font-family: Arial;
-	width: 800px;
-	border: 2px solid black;
-      }
+
 
