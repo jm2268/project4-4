@@ -50,10 +50,9 @@ header{
         padding: 1em;
 	text-align: center;
 }
-img { 
+.castillo { 
      float: left;
-     height: 200px;
-     width: 100px;
+   
 }	
 	     
 footer{color: white;
