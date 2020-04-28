@@ -52,6 +52,8 @@ header{
 }
 img { 
      float: left;
+     height: 200px;
+     width: 100px;
 }	
 	     
 footer{color: white;
