@@ -51,7 +51,11 @@ header{
 	text-align: center;
 }
 .castillo { 
-     float: left;
+     img{ 
+	     float: left;
+	     height: 200px;
+	     width: 175px;
+	}    
 }	
 	     
 footer {
