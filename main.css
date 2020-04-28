@@ -49,6 +49,10 @@ body {  font-family: Arial;
 header{
         padding: 1em;
 }
+img { 
+     float: left;
+}	
+	     
 footer{color: white;
        font-size: 50%;
        clear: both;
