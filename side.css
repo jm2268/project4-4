@@ -12,6 +12,9 @@ body {  font-family: Arial;
 	color: #ffff00;
 	background-color: rgb(60, 60, 60);
 }
+h1 {
+	text-align: center;
+}
 #nav_menu ul {
 	list-style-type: none;
 	position: relative;
