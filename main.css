@@ -61,12 +61,7 @@ h1 {
 aside {
           float: left;         
 }
-.artists ol {
-	    float: left;
-}
-.designs ol{ 
-	    float: right;
-}
+
 footer {
     position: fixed;
     left: 0;
