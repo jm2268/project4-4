@@ -59,12 +59,14 @@ h1 {
      text-align: center;
 }
 article {
-          float: left;
+          padding: 50px 20px 50px 20px;         
 }
-design {
-	float: right;
+.artists ol {
+	    float: left;
 }
-	     
+.designs ol{ 
+	    float: right;
+}
 footer {
     position: fixed;
     left: 0;
