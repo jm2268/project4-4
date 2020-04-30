@@ -57,6 +57,7 @@ header{
 }
 article {
           float: left;
+	  margin: 45px 45px 90px 90px;
 }
 design {
 	float: right;
