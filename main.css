@@ -54,7 +54,13 @@ header{
 	     float: left;
 	     height: 200px;
 	     width: 175px;    
-}	
+}
+article {
+          float: left;
+}
+design {
+	float: right;
+}
 	     
 footer {
     position: fixed;
