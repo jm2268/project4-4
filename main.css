@@ -55,9 +55,11 @@ header{
 	     height: 200px;
 	     width: 175px;    
 }
+h1 {
+     text-align: center;
+}
 article {
           float: left;
-	  margin: 90px 45px 90px 90px;
 }
 design {
 	float: right;
