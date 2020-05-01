@@ -49,6 +49,14 @@ h1 {
     clear: both;
     display: block;
 }
+h2 {
+	text-align: center;
+	border-top: solid 5px #990000;
+	border-bottom: solid 5px #990000;
+	background: #990000;
+	color: white;
+}
+ol {}
 footer {
     position: fixed;
     left: 0;
