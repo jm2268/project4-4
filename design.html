@@ -1,33 +1,61 @@
 <!DOCUTYPE html>
 <html lang="en">
 <head> 
-    <meta charset="utf-8">
+     <meta charset="UTF-8">
     <title>Designed By Us</title>
-    <link rel="stylesheet" href="side.css">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
 </head>
+<header><h1>Designed By Us</h1></header>
+<header><h3>Contact Form</h3></header>
 <body>
-    <header>
-        <h1>Designed By Us</h1>
-    </header>
-    <nav id="nav_menu">
-        <ul>
-            <li><a href="main.html" class="current">Home</a></li>
-            
-        	  <li><a href="artist.html">Artists</a></li>
-            
-        	  <li><a href="audio.html">Audio</a></li>
-            
-        	  <li><a href="design.html">Designs</a></li>
-        	  <li><a href=""> About</a>
-            	<ul>
-                	<li><a href="">what we are about</a></li>
-                	<li><a href="">FAQ</a></li>
-                	<li><a href="">Terms of Service</a></li>
-                	<li><a href="contact.html">Contact Information</a></li>
-            	</ul>
-            </li>
-        </ul>
-    </nav>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="main.html">Home</a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="artist.html">Artists</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="audio.html">Audio</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#">Design</a>
+                    </li>
+					 <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="design.html" id="navbardrop"
+                           data-toggle="dropdown">
+                            About
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">What We Are About</a>
+                            <a class="dropdown-item" href="#">FAQ</a>
+                            <a class="dropdown-item" href="#">Terms of Service</a>
+							<a class="dropdown-item" href="#">Contact Information</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
     <h2>Featured Designs</h2>
     <ol>
             <li>xxxxxxxxxxx</li>
